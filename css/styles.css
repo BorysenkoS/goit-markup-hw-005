@@ -461,6 +461,10 @@ img {
   color: #f4f4fd;
 }
 
+.footer-social-links {
+  margin-right: 80px;
+}
+
 .footer-social-text {
   color: #fff;
   font-family: Roboto;
@@ -503,4 +507,70 @@ img {
 .footer-link-icons:hover,
 .footer-link-icons:focus {
   background-color: #31d0aa;
+}
+
+.subscribe-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+
+  margin-bottom: 16px;
+}
+
+.subscribe-email {
+  width: 264px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  margin-right: 24px;
+
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.48px;
+
+  background-color: #2e2f42;
+  border-radius: 4px;
+  border: #fff 1px solid;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-email::placeholder {
+  color: #ffffff;
+}
+
+.subscribe-email:focus {
+  outline: transparent;
+}
+
+.subscribe-btn {
+  display: flex;
+  gap: 16px;
+  color: #fff;
+
+  padding: 8px 24px;
+
+  font-family: Roboto;
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+
+  border-radius: 4px;
+  border: none;
+  background: #4d5ae5;
 }
