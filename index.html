@@ -467,16 +467,16 @@
         <div class="footer-subscribe">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-flex-container">
-            <label for="subscribe-form">
-              <input
-                class="subscribe-email"
-                type="email"
-                name="subscribe-form"
-                id="subscribe-form"
-                placeholder="E-mail"
-                required
-              />
-            </label>
+            <label for="subscribe-form"> </label>
+            <input
+              class="subscribe-email"
+              type="email"
+              name="subscribe-form"
+              id="subscribe-form"
+              placeholder="E-mail"
+              required
+            />
+
             <button type="submit" class="subscribe-btn">
               Subscribe
               <svg class="subscribe-icon" width="24" height="24">
@@ -489,9 +489,9 @@
     </footer>
 
     <!-- Modal window -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-close-btn">
+        <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -499,13 +499,13 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-fild-wrapper">
-            <label class="modal-user-label" for="user-names">Name</label>
+            <label class="modal-user-label" for="user-name">Name</label>
             <div class="modal-user-wrapper">
               <input
                 class="modal-user-names"
                 type="text"
-                name="user-names"
-                id="user-names"
+                name="user-name"
+                id="user-name"
                 title="Serhii"
                 pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
                 required
@@ -549,11 +549,11 @@
           </div>
 
           <div class="modal-textarea-wrapper">
-            <label class="modal-user-label" for="modal-textarea">Comment</label
+            <label class="modal-user-label" for="user-comment">Comment</label
             ><textarea
               class="modal-textarea"
-              name="modal-textarea"
-              id="modal-textarea"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -561,9 +561,10 @@
             <input
               class="modal-checkbox-privecy visually-hidden"
               type="checkbox"
-              name="modal-checkbox"
-              id="modal-checkbox"
-            /><label for="modal-checkbox" class="modal-checkbox">
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            /><label for="user-privacy" class="modal-checkbox">
               <span class="checkbox"
                 ><svg class="modal-icon-vector" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use></svg></span
