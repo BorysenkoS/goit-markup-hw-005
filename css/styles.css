@@ -767,11 +767,12 @@ img {
 }
 
 .modal-checkbox-wrapper {
+  display: inline-flex;
   margin-bottom: 24px;
 }
 
 .modal-checkbox {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 8px;
   color: #8e8f99;
